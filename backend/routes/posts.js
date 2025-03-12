@@ -34,46 +34,7 @@ const storage = multer.diskStorage({
     },
   });
 
-// Post Content API
-// router.post(
-//   '/posts',
-//   auth,
-//   [
-//     body('userId').notEmpty().withMessage('User ID is required'),
-//     body('postName').notEmpty().withMessage('Post name is required'),
-//     body('description').notEmpty().withMessage('Description is required'),
-//   ],
-//   async (req, res, next) => {
-//     const errors = validationResult(req);
-//     if (!errors.isEmpty()) {
-//       logger.error('Validation failed:', errors.array());
-//       return res.status(400).json({ errors: errors.array() });
-//     }
 
-//     const { userId, postName, description, tags, imageUrl } = req.body;
-
-//     if (req.user.id !== userId) {
-//       logger.error('Unauthorized post attempt:', userId);
-//       return res.status(403).json({ error: 'Unauthorized' });
-//     }
-
-//     try {
-//       const post = new Post({
-//         userId,
-//         postName,
-//         description,
-//         tags,
-//         imageUrl,
-//       });
-//       await post.save();
-
-//       logger.info(`Post created by user: ${userId}`);
-//       res.status(201).json(post);
-//     } catch (error) {
-//       next(error);
-//     }
-//   }
-// );
 
 router.post(
     '/posts',
