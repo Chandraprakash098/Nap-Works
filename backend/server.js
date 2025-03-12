@@ -4,7 +4,7 @@ const express = require('express');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const morgan = require('morgan');
-const path = require('path'); // Add path module
+const path = require('path'); 
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
 const postRoutes = require('./routes/posts');
@@ -14,7 +14,7 @@ const logger = require('./utils/logger');
 const app = express();
 
 const cors = require('cors');
-app.use(cors()); // Add this after app.use(express.json());
+app.use(cors()); 
 
 // Middleware
 app.use(helmet());
@@ -23,7 +23,7 @@ app.use(morgan('combined', { stream: { write: (msg) => logger.info(msg.trim()) }
 app.use(
   rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 100, // Limit each IP to 100 requests per windowMs
+    max: 100, 
   })
 );
 
