@@ -1,0 +1,27 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:37:04.697Z"}
+{"level":"error","message":"Email already exists:","timestamp":"2025-03-12T11:39:01.894Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:39:01 +0000] \"POST /api/signup HTTP/1.1\" 400 32 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:39:01.901Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:39:47.986Z"}
+{"level":"info","message":"User signed up: chandraprakash96386@gmail.com","timestamp":"2025-03-12T11:39:54.039Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:39:54 +0000] \"POST /api/signup HTTP/1.1\" 201 183 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:39:54.046Z"}
+{"level":"error","message":"Email already exists:","timestamp":"2025-03-12T11:40:07.804Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:40:07 +0000] \"POST /api/signup HTTP/1.1\" 400 32 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:40:07.805Z"}
+{"level":"info","message":"User logged in: chandraprakash96386@gmail.com","timestamp":"2025-03-12T11:40:26.548Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:40:26 +0000] \"POST /api/login HTTP/1.1\" 200 183 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:40:26.549Z"}
+{"0":{"location":"body","msg":"Valid email is required","path":"email","type":"field"},"1":{"location":"body","msg":"Password is required","path":"password","type":"field"},"level":"error","message":"Validation failed:","timestamp":"2025-03-12T11:41:36.102Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:41:36 +0000] \"POST /api/login HTTP/1.1\" 400 176 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:41:36.103Z"}
+{"level":"info","message":"Post created by user: 67d172891266a9a2f977d0bb","timestamp":"2025-03-12T11:41:52.091Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:41:52 +0000] \"POST /api/posts HTTP/1.1\" 201 325 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:41:52.095Z"}
+{"level":"info","message":"Fetched posts - Page: 1, Limit: 10","timestamp":"2025-03-12T11:42:23.468Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:42:23 +0000] \"GET /api/posts HTTP/1.1\" 200 366 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:42:23.471Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:43:47.147Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:46:25.239Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:47:29.649Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:51:33.939Z"}
+{"level":"info","message":"User signed up: john@example.com","timestamp":"2025-03-12T11:51:39.565Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:51:39 +0000] \"POST /api/signup HTTP/1.1\" 201 183 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:51:39.573Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:52:22 +0000] \"POST /login HTTP/1.1\" 404 145 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:52:22.102Z"}
+{"level":"info","message":"User logged in: john@example.com","timestamp":"2025-03-12T11:52:28.527Z"}
+{"level":"info","message":"::1 - - [12/Mar/2025:11:52:28 +0000] \"POST /api/login HTTP/1.1\" 200 183 \"-\" \"PostmanRuntime/7.43.0\"","timestamp":"2025-03-12T11:52:28.530Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:53:32.187Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-12T11:53:47.010Z"}
