@@ -1,4 +1,0 @@
-{"level":"error","message":"Email already exists:","timestamp":"2025-03-12T11:39:01.894Z"}
-{"level":"error","message":"Email already exists:","timestamp":"2025-03-12T11:40:07.804Z"}
-{"0":{"location":"body","msg":"Valid email is required","path":"email","type":"field"},"1":{"location":"body","msg":"Password is required","path":"password","type":"field"},"level":"error","message":"Validation failed:","timestamp":"2025-03-12T11:41:36.102Z"}
-{"level":"error","message":"Login failed - User not found:","timestamp":"2025-03-12T13:16:20.262Z"}
