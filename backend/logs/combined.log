@@ -1,1 +1,5 @@
 {"level":"info","message":"Server running on port 5000","timestamp":"2025-03-13T09:25:57.865Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-13T09:29:04.122Z"}
+{"level":"info","message":"Fetched 1 posts - Page: 1, Limit: 10","timestamp":"2025-03-13T09:29:08.431Z"}
+{"level":"info","message":"::1 - - [13/Mar/2025:09:29:08 +0000] \"GET /api/posts?searchText=Test%20Post%203 HTTP/1.1\" 200 452 \"-\" \"PostmanRuntime/7.43.2\"","timestamp":"2025-03-13T09:29:08.439Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-03-13T09:38:23.254Z"}

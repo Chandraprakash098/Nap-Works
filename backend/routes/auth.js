@@ -83,7 +83,7 @@ router.post('/signup', requirePost, signupValidation, asyncHandler(async (req, r
     data: {
       token,
       user: { 
-        id: user._id,  // Including userId in signup response too
+        id: user._id,  
         name, 
         email 
       }
@@ -136,7 +136,7 @@ router.post('/login', requirePost, loginValidation, asyncHandler(async (req, res
     data: {
       token,
       user: { 
-        id: user._id,  // Added userId here
+        id: user._id,  
         name: user.name, 
         email 
       }
