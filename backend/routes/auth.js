@@ -91,7 +91,7 @@ router.post('/signup', requirePost, signupValidation, asyncHandler(async (req, r
   });
 }));
 
-// 2. Login API (Modified to include userId)
+// 2. Login API 
 router.post('/login', requirePost, loginValidation, asyncHandler(async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
